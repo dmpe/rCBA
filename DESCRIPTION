@@ -8,6 +8,7 @@ Depends:
 License: What license is it under?
 LazyData: true
 Imports:
-    rJava
+    rJava, 
+    data.table (1.9.7)
 SystemRequirements: Java (>= 8.0)
 RoxygenNote: 5.0.1
