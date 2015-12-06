@@ -1,9 +1,8 @@
-# package created using:
-# http://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/
-
+#' package created using:
+#' http://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/
+#' @import rJava
 init <- function(){
 	# initialize rJava
-	library(rJava)
 	.jinit()
 	# add java implementation to classpath
 	.jaddClassPath(dir(paste(path.package("rCBA"), "/java/", sep=""), full.names=TRUE))
